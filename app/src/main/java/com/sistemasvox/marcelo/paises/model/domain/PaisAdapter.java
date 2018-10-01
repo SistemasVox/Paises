@@ -53,10 +53,10 @@ public class PaisAdapter extends BaseAdapter {
         TextView Populacao = (TextView) linha.findViewById(R.id.Populacao);
 
         TypedArray fotos = ctx.getResources().obtainTypedArray(R.array.fotos);
-        img.setImageDrawable(fotos.getDrawable(pais.foto));
-        Rank.setText(pais.Rank);
-        Pais.setText(pais.Pais);
-        Populacao.setText(pais.Populacao);
+        img.setImageDrawable(fotos.getDrawable(pais.getFoto()));
+        Rank.setText("Rank: " + pais.getRank());
+        Pais.setText("País: " + pais.getPais());
+        Populacao.setText("População: " + pais.getPopulacao());
 
         return linha;
     }

@@ -13,8 +13,9 @@
         android:layout_column="0"
         android:layout_margin="8dp"
         android:padding="8dp"
-        android:textSize="24dp"
+        android:textSize="18sp"
         android:textStyle="bold" />
+
     <TextView
         android:id="@+id/Pais"
         android:layout_width="wrap_content"
@@ -23,8 +24,9 @@
         android:layout_column="0"
         android:layout_margin="8dp"
         android:padding="8dp"
-        android:textSize="24dp"
+        android:textSize="18sp"
         android:textStyle="bold" />
+
     <TextView
         android:id="@+id/Populacao"
         android:layout_width="wrap_content"
@@ -33,7 +35,7 @@
         android:layout_column="0"
         android:layout_margin="8dp"
         android:padding="8dp"
-        android:textSize="24dp"
+        android:textSize="18sp"
         android:textStyle="bold" />
     <ImageView
         android:id="@+id/Foto"

@@ -1,17 +1,49 @@
 package com.sistemasvox.marcelo.paises.model.domain;
 
 public class Pais {
-    String Rank, Pais, Populacao;
-    public int foto;
+    private String rank, pais, populacao;
+    private int foto;
 
     public Pais(String rank, String pais, String populacao, int foto) {
-        Rank = rank;
-        Pais = pais;
-        Populacao = populacao;
+        this.rank = rank;
+        this.pais = pais;
+        this.populacao = populacao;
         this.foto = foto;
     }
 
     public String getNomePais() {
-        return Pais;
+        return pais;
+    }
+
+    public String getRank() {
+        return rank;
+    }
+
+    public void setRank(String rank) {
+        this.rank = rank;
+    }
+
+    public String getPais() {
+        return pais;
+    }
+
+    public void setPais(String pais) {
+        this.pais = pais;
+    }
+
+    public String getPopulacao() {
+        return populacao;
+    }
+
+    public void setPopulacao(String populacao) {
+        this.populacao = populacao;
+    }
+
+    public int getFoto() {
+        return foto;
+    }
+
+    public void setFoto(int foto) {
+        this.foto = foto;
     }
 }
