@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fotos">
+        <item>@drawable/China</item>
+        <item>@drawable/India</item>
+        <item>@drawable/USA</item>
+        <item>@drawable/Indonesia</item>
+        <item>@drawable/Brazil</item>
+        <item>@drawable/Pakistan</item>
+        <item>@drawable/Nigeria</item>
+        <item>@drawable/Bangladesh</item>
+        <item>@drawable/Russia</item>
+        <item>@drawable/Mexico</item>
+    </array>
+</resources>
